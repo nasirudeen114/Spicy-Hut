@@ -1,0 +1,147 @@
+:root{
+    --red:crimson;
+    --green:#53BF9D;
+    --yellow:#FFC54D;
+    --white:whitesmoke;
+}
+
+body,h2{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image: url(./img/pexels-thepaintedsquare-858094\(1\).jpg);
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+    color: var(--white);
+}
+header a i,nav a i{
+    margin-right: .5em;
+}
+header a{
+    text-decoration: none;
+    color: var(--yellow);
+    min-width: 260px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1em;
+}
+#logo{
+    flex: 3;
+    font-size: 1.25em;
+    padding: 1em;
+    min-width: 260px;
+}
+nav{
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    flex: 1;
+}
+nav a:hover{
+    color: var(--green);
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+}
+.tagline-1{
+    color: var(--red);
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.tagline-2{
+    color: var(--yellow);
+}
+.maintext div{
+    margin-top: .75em;
+}
+.maintext button{
+    border: none;
+    width: 20vw;
+    margin-top:2em;
+    border-radius: 10px;
+    padding: .7em;
+    background-color: var(--green);
+    color: var(--white);
+    border-color: 1px solid var(--green);
+    cursor: pointer;
+}
+.menu{
+    display: grid;
+    background: linear-gradient(to right, rgb(100 100 100),rgb(53 52 52));
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    color: var(--white);
+}
+#menuheading,#Locheading{
+    background: linear-gradient(to right,rgb(100 100 100),rgb(53 52 52));
+    font-size: 2.5em;
+    color: var(--yellow);
+    display: flex;
+    justify-content: center;
+}
+.menu th{
+    color: var(--green);
+    font-size: 1.25em;
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.menu td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+.chaats{
+    grid-row: span 2;
+}
+.location{
+    background: linear-gradient(to right, rgb(100 100 100),rgb(53 52 52));
+    color: var(--white);
+    display: flex;
+    flex-wrap: wrap;
+}
+.location h2{
+    color: var(--green);
+    margin-bottom: .6em;
+}
+.location div{
+    flex: 1;
+    padding: 1em;
+    min-width: 220px;
+}
+.location address{
+    margin: 10;
+}
+footer{
+    background-color: rgb(32, 31, 31);
+    color: var(--white);
+    padding: .25em 1em;
+    height: 30px;
+    display: flex;
+    padding-top: 10px;
+}
+span{
+    margin-left: 900px;
+}
+span i{
+    padding: 1px 12px;
+    font-size: 15px;
+    margin-top: 10px;
+}
