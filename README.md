@@ -1,1 +1,1 @@
-# Spicy-Hut
+A web page development project using HTML and CSS focuses on building a structured, visually appealing, and responsive website. This project involves designing a user-friendly interface with well-organized content, navigation, and styling to enhance the user experience.
